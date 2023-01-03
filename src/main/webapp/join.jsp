@@ -3,8 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%-- <jsp:include page="${pageContext.request.contextPath}/src/main/webapp/include/header.jsp"></jsp:include> --%>
 <c:out value="${pageContext.request.contextPath}"/>
-<!-- <link rel="stylesheet" href="../resources/css/bootstrap.min.css" /> -->
-<%@ include file="../include/header.jsp" %>
+<%@ include file="./include/header.jsp" %>
 
 <script type="text/javascript">
 	// 유효성 검사
