@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.config.CheerMapper">
+<mapper namespace="config.CheerMapper">
 	<select id="selectCheer" parameterType="int" resultType="int">
 		select count(content_idx) 
 		from kakao_cheer

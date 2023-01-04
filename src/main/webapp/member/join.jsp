@@ -1,9 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%-- <jsp:include page="${pageContext.request.contextPath}/src/main/webapp/include/header.jsp"></jsp:include> --%>
-<c:out value="${pageContext.request.contextPath}"/>
-<!-- <link rel="stylesheet" href="../resources/css/bootstrap.min.css" /> -->
 <%@ include file="../include/header.jsp" %>
 
 <script type="text/javascript">
@@ -97,7 +94,7 @@
 <div id="nav_wrap">
 	<div id="nav_ctr">
 		<div id="nav_logo">			
-			<a class="mainlogo" href="/main">GYURAPHY<span>같이가치</span></a>
+			<a class="mainlogo" href="/main"><span class="light">GYURAPHY <span class="bold">같이가치</span></span></a>
 		</div>
 	</div>	
 </div>
@@ -173,7 +170,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="item_th">이메일</td>
+					<td class="item_th"><div>이메일</div></td>
 					<td class="td_email">
 						<input type="text" name="email1" id="email1" placeholder="앞자리 입력" autocomplete="off">
 						<span class="link">@</span>
@@ -192,7 +189,8 @@
 		</form>
 	</div>
 </div>
-</div> <!-- wrap?문제 -->
+</div>
+ 
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <script>
     //도로명 주소 표기 방식에 대한 법령에 따라, 내려오는 데이터를 조합하여 올바른 주소 구성

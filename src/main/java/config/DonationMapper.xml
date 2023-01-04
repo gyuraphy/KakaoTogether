@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.config.DonationMapper">
+<mapper namespace="config.DonationMapper">
 	<insert id="insertDonation" parameterType="hashmap">
 		insert into kakao_donation(content_idx, member_idx, donation, comments, date_donation)
 		values (#{content_idx}, #{member_idx}, #{price}, #{comment}, sysdate)

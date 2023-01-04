@@ -6,7 +6,7 @@
 <div id="nav_wrap">
 	<div id="nav_ctr">
 		<div id="nav_logo">			
-				<a class="mainlogo" href="/main">GYURAPHY<span>같이가치</span></a>
+				<a class="mainlogo" href="/main"><span class="light">GYURAPHY <span class="bold">같이가치</span></span></a>
 		</div>
 		<div id="nav_gnb" role="navigtion">
 			<ul class="inner">
@@ -31,7 +31,7 @@
 					</a>
 				</li>
 			</ul>
-		</div>		
+		</div>
 		
 		<div id="wrap_util">
 			<ul class="inner">

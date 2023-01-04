@@ -3,17 +3,16 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-
   <!-- xml 주석 -->	
   <!-- jdbc.properties 등록 -->
-  <properties resource="com/config/jdbc.properties"></properties>
+  <properties resource="config/jdbc.properties"></properties>
   
   <!-- DTO에 별칭 -->
   <typeAliases>
     <typeAlias type="dto.member.MemberDTO" alias="MemberDTO"/>
-    <typeAlias type="dto.board.BoardDTO" alias="BoardDTO"/>
+    <!-- <typeAlias type="dto.board.BoardDTO" alias="BoardDTO"/>
     <typeAlias type="dto.donation.MydonationDTO" alias="MydonationDTO"/>
-    <typeAlias type="dto.donation.CommentsDTO" alias="CommentsDTO"/>
+    <typeAlias type="dto.donation.CommentsDTO" alias="CommentsDTO"/> -->
   </typeAliases>
   	
   <environments default="development">
@@ -27,10 +26,11 @@
       </dataSource>
     </environment>
   </environments>
+  
   <mappers>
-    <mapper resource="config/BoardMapper.xml"/>
-    <mapper resource="config/MemberMapper.xml"/>
+  	<mapper resource="config/MemberMapper.xml"/>
+    <!-- <mapper resource="config/BoardMapper.xml"/>    
     <mapper resource="config/CheerMapper.xml"/>
-    <mapper resource="config/DonationMapper.xml"/>
+    <mapper resource="config/DonationMapper.xml"/> -->
   </mappers>
 </configuration>

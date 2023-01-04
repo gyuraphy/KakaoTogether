@@ -23,7 +23,7 @@
 <div id="nav_wrap">
 	<div id="nav_ctr">
 		<div id="nav_logo">			
-			<a class="mainlogo" href="/main">GYURAPHY<span>같이가치</span></a>
+			<a class="mainlogo" href="/main"><span class="light">GYURAPHY <span class="bold">같이가치</span></span></a>
 		</div>
 	</div>	
 </div>
@@ -31,8 +31,8 @@
 <div id="page_login">
 	<div id="main">
 		<div class="title">
-			<span class="light">당신의 <span class="bold">착한 마음</span>을</span>
-			<span class="light">응원합니다 ♡</span>
+			<span class="light">당신의 <span class="bold">따듯한 마음</span>을</span>
+			<span class="light">응원합니다!</span>
 		</div>
 		<form action="/login.action" id="login_form" name="loginForm" method="post">
 			<input type="hidden" name="next">
