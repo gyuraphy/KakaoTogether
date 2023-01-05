@@ -10,9 +10,9 @@
   <!-- DTO에 별칭 -->
   <typeAliases>
     <typeAlias type="dto.member.MemberDTO" alias="MemberDTO"/>
-    <!-- <typeAlias type="dto.board.BoardDTO" alias="BoardDTO"/>
+	<typeAlias type="dto.board.BoardDTO" alias="BoardDTO"/>
     <typeAlias type="dto.donation.MydonationDTO" alias="MydonationDTO"/>
-    <typeAlias type="dto.donation.CommentsDTO" alias="CommentsDTO"/> -->
+    <typeAlias type="dto.donation.CommentsDTO" alias="CommentsDTO"/>
   </typeAliases>
   	
   <environments default="development">
@@ -29,8 +29,8 @@
   
   <mappers>
   	<mapper resource="config/MemberMapper.xml"/>
-    <!-- <mapper resource="config/BoardMapper.xml"/>    
+	<mapper resource="config/BoardMapper.xml"/>    
     <mapper resource="config/CheerMapper.xml"/>
-    <mapper resource="config/DonationMapper.xml"/> -->
+    <mapper resource="config/DonationMapper.xml"/>
   </mappers>
 </configuration>
