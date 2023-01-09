@@ -62,7 +62,7 @@ public class WriteActionServlet extends HttpServlet {
 								image0, head1, body1, image1, youtube1, tag1, tag2, tag3, Integer.parseInt(writer),
 								subtopic, cate);
 						num = service.updateNow(boardDTO);
-						next = "/fund/now/content?idx="+Integer.parseInt(idx);
+						next = "/fund/nowContent?idx="+Integer.parseInt(idx);
 					}
 				} catch (Exception e) {
 					next = "/Error500";
@@ -85,7 +85,7 @@ public class WriteActionServlet extends HttpServlet {
 								image0, head1, body1, image1, youtube1, tag1, tag2, tag3, 
 								Integer.parseInt(writer), cate);
 						num = service.updateEpil(boardDTO);
-						next = "/fund/epil/content?idx="+Integer.parseInt(idx);
+						next = "/fund/epilContent?idx="+Integer.parseInt(idx);
 					}
 					
 				} catch (Exception e) {

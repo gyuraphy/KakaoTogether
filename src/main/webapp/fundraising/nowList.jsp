@@ -46,7 +46,7 @@
 	<ul class="list_fund">
 		<c:forEach var="now" items="${nowList}" varStatus="status">
 		<li class="listcard">
-			<a href="/fund/now/content?idx=${now.idx}" class="link_content">
+			<a href="/fund/nowContent?idx=${now.idx}" class="link_content">
 				<span class="img_box"><img src="${imgSrc}/for-test/${now.image0}"></span>
 				<span class="text_box">
 					<span class="title"> ${now.title} </span>

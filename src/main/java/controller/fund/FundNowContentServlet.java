@@ -20,7 +20,7 @@ import service.donation.DonationService;
 import service.donation.DonationServiceImpl;
 
 
-@WebServlet("/fund/now/content")
+@WebServlet("/fund/nowContent")
 public class FundNowContentServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		

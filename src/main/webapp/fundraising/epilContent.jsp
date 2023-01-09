@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
-<%@ include file="header.jsp" %>
-<%@ include file="nav.jsp" %>
+<%@ include file="../include/header.jsp" %>
+<%@ include file="../include/nav.jsp" %>
 
 <div id="wrap_content">
 	<c:if test="${login.idx eq null}"><c:set var="loginIdx" value="0"/></c:if>
@@ -57,4 +57,4 @@
 	</c:if>
 </div>
 
-<%@ include file="footer.jsp" %>
+<%@ include file="../include/footer.jsp" %>

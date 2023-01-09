@@ -22,7 +22,7 @@
 	<ul class="list_fund">
 		<c:forEach var="epil" items="${epilList}" varStatus="status">
 		<li class="listcard">
-			<a href="/fund/epil/content?idx=${epil.idx}" class="link_content">
+			<a href="/fund/epilContent?idx=${epil.idx}" class="link_content">
 				<span class="img_box"><img src="${imgSrc}/for-test/${epil.image0}"></span>
 				<span class="text_box">
 					<span class="title"> ${epil.title} </span>

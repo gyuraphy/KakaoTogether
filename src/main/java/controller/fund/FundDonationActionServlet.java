@@ -36,7 +36,7 @@ public class FundDonationActionServlet extends HttpServlet {
 		DonationService service = new DonationServiceImpl();
 		try {
 			int num = service.insertDonation(map);
-			next = "/fund/now/content?idx="+cIdx;
+			next = "/fund/nowContent?idx="+cIdx;
 		} catch (Exception e) {
 			next = "/Error500";
 			e.printStackTrace();

@@ -7,7 +7,7 @@
 		<c:forEach var="mywrite" items="${mywriteList}" varStatus="status">
 		<li>	
 			<c:if test="${mywrite.cate == 'fund'}">
-			<a href="/fund/now/content?idx=${mywrite.idx}&subtopic=${mywrite.subtopic}" class="link_card">
+			<a href="/fund/nowContent?idx=${mywrite.idx}&subtopic=${mywrite.subtopic}" class="link_card">
 			</c:if>
 			<c:if test="${mywrite.cate == 'prom'}">
 			<a href="/prom/content?idx=${mywrite.idx}" class="link_card">

@@ -16,7 +16,7 @@ import service.cheer.CheerService;
 import service.cheer.CheerServiceImpl;
 
 
-@WebServlet("/fund/epil/content")
+@WebServlet("/fund/epilContent")
 public class FundEpilContentServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		

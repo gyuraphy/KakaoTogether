@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ include file="./header.jsp" %>
-<%@ include file="./nav.jsp" %>
+<%@ include file="../include/header.jsp" %>
+<%@ include file="../include/nav.jsp" %>
 
 <script type="text/javascript">
 	$(document).ready(function(){  
@@ -136,8 +136,6 @@
 	</div>
 </div>
 
-
-
-<%@ include file="./footer.jsp" %>
-
 <%@ include file="./donationPopup.jsp" %>
+
+<%@ include file="../include/footer.jsp" %>
