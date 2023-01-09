@@ -1608,6 +1608,30 @@ input {
     vertical-align: top;
 }
 
+/* 상세페이지 버튼 */
+#btn_update {
+	z-index: 999;
+	position: fixed;
+    right: 40px;
+    width: 100px;
+    bottom: 10px;
+    background-color: #dc2855;
+    border-radius: 7px;
+}
+
+#btn_update a {
+	display: inline-block;
+	width: 100%;
+	text-align:center;
+}
+
+#btn_update span {
+	color: #fff;
+    font-size: 20px;
+    font-family: KakaoLight;
+    padding: 17px;
+    display: block;
+}
 
 
 /* 마이페이지 */

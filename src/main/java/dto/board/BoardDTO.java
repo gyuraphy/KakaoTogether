@@ -1,5 +1,5 @@
 package dto.board;
-
+// 데이터 교환을 위해 사용하는 객체 get,set
 public class BoardDTO {
 	int idx;		// 게시글 고유번호
 	String topic;	// 카테고리 (모금중, 모금후기, 나눔캠페인)

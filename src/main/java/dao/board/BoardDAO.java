@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.ibatis.session.SqlSession;
 
 import dto.board.BoardDTO;
-
+// DB 접근을 위한 객체
 public class BoardDAO {
 	// Now
 	public List<BoardDTO> selectAllNow(SqlSession session, HashMap<String, Object> map) throws Exception {
